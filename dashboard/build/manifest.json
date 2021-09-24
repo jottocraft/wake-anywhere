@@ -1,0 +1,20 @@
+{
+  "short_name": "Wake Anywhere",
+  "name": "Wake Anywhere Dashboard",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "800x800"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#374729",
+  "background_color": "#71ab1f"
+}

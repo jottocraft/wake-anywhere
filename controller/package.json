@@ -1,0 +1,22 @@
+{
+  "name": "wake-anywhere-controller",
+  "description": "Send Wake-On-LAN packets to devices on your networks from anywhere in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jottocraft/wake-anywhere.git"
+  },
+  "author": "jottocraft",
+  "bugs": {
+    "url": "https://github.com/jottocraft/wake-anywhere/issues"
+  },
+  "homepage": "https://github.com/jottocraft/wake-anywhere#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "wol": "^1.0.7"
+  }
+}

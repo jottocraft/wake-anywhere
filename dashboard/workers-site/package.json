@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "wake-anywhere-worker",
+  "main": "index.js",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "~0.1.2"
+  }
+}
