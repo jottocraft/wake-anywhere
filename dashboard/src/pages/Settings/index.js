@@ -2,8 +2,10 @@ import { useContext, useState } from "react";
 
 import Container from "shamrock-ux/react/Container";
 import ButtonGroup from "shamrock-ux/react/ButtonGroup";
-import themeContext from "shamrock-ux/react/contexts/theme";
 import Button from "shamrock-ux/react/Button";
+import Link from "shamrock-ux/react/Link";
+
+import themeContext from "shamrock-ux/react/contexts/theme";
 
 import NetworkModal from "./NetworkModal";
 
@@ -69,6 +71,19 @@ export default function Settings({ networks, setNetworks }) {
                                 </table>
                             )
                         }
+                    </div>
+                </div>
+
+                <div>
+                    <div className="mt-80 py-14">
+                        <div className="text-center text-type-20">
+                            <div className="flex flex-row items-center justify-center">
+                                <img alt="jottocraft logo" className="h-10 mr-4"
+                                    src="https://cdn.jottocraft.com/images/footerImage.png" />
+                                <h5 className="text-2xl font-medium">jottocraft</h5>
+                            </div>
+                            <p className="mt-2">(c) jottocraft 2021. <Link href="https://github.com/jottocraft/wake-anywhere">source code</Link> / <Link href="https://github.com/jottocraft/wake-anywhere/blob/main/LICENSE">license</Link></p>
+                        </div>
                     </div>
                 </div>
             </div>
